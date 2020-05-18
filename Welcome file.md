@@ -23,8 +23,37 @@
     "photos": "https://example.com/web/statics/image.png"
     "address": "127-129 Nguyễn Cơ Thach",
     "status": 1, // 1(valid), 0(invalid)
-    "opening_time": "7",
-    "closing_time": "21",
+    "service_hours":
+    {
+	  "1": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "2": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "3": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "4": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "5": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "6": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "7": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  }
+	},
     "latitude": 10.7704909,
     "longitude": 106.723932
   }
@@ -49,8 +78,38 @@
     "name": "quầy nước",
     "status" 1 // 1(valid), 0(invalid)
     "sequence": 1 // thứ tự sắp xếp
-    "opening_time": "7",
-    "closing_time": "21",
+    "service_hours":
+    {
+	  "1": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "2": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "3": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "4": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "5": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "6": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  },
+	  "7": {
+	    "opening_time": "08:00",
+	    "closing_time": "22:00"
+	  }
+	 }
+    }
   }
 ]
 </code></pre>
