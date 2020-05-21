@@ -36,7 +36,7 @@
 </ul>
 <pre><code>[
   {
-    "merchant_code": "MC001",
+    "id": "I001",
     "name": "Cà phê số 1 Nguyễn Huệ",
     "hotline": "0399999999",
     "photos": "https://example.com/web/statics/image.png"
