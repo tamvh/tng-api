@@ -93,7 +93,7 @@
 </ul>
 <pre><code>[
   {
-    "id": 1,
+    "id": "1",
     "u_code": "UC001",
     "name": "Quầy nước",
     "status" 1 // 1(active), 0(inactive)
@@ -148,7 +148,7 @@
 </ul>
 <pre><code>[
  {
-  "id": 1,
+  "id": "1",
   "code": "caphe",
   "name": "Cà phê đen",
   "name_en": "coffee",
@@ -165,7 +165,7 @@
   "sequence": 1 // thứ tự ưu tiên
   "quantity": 100,
   "group_variant":[
-      "id": 1,
+      "id": "1",
       "name": "Size",
       "name_en": "Size",
       "status": 1, 1(active), 0(inactive)
@@ -174,7 +174,7 @@
       "img":"",
       "variant": [
         {
-          "id": 1,
+          "id": "1",
           "name": "SizeS",
           "name_en": "SizeS"
           "status": 1, 1(active), 0(inactive)"
@@ -183,7 +183,7 @@
           "img":"",
         },
         {
-          "id": 2,
+          "id": "2",
           "name": "SizeM",
           "name_en": "SizeM"
           "status": 1, 1(active), 0(inactive)"
@@ -192,7 +192,7 @@
           "img":"",
         },
         {
-          "id": 3,
+          "id": "3",
           "name": "SizeL",
           "name_en": "SizeL"
           "status": 1, 1(active), 0(inactive)"
@@ -203,7 +203,7 @@
       ],
       "toping":[
         {
-          "id": 1,
+          "id": "1",
           "code": "thach_cf",
           "name": "Thạch cà phê",
           "name_en": "",
@@ -258,36 +258,36 @@
 	},
 	"items":[
 		{
-		  "id": "111",
-		  "partner_id": 1, // item id của đối tác
+		  "id": "111", // id item ZaloPay
+		  "partner_id": "1", // item id của đối tác
 		  "partner_u_code": "UC001",
 		  "group_variant":[
-		  	  "id":1,
-		      "parner_id": 1, // group_variant id của đối tác
+		      "id": "1",
+		      "parner_id": "1", // group_variant id của đối tác
 		      "variant": [
 		        {
-		          "id": 1,
-		          "partner_id": 1, // variant id của đối tác
+		          "id": "1",
+		          "partner_id": "1", // variant id của đối tác
 		          "partner_u_code": "UC001",
 		          "quantity": 100
 		        },
 		        {
-		          "id": 2,
-		          "partner_id": 2,
+		          "id": "2",
+		          "partner_id": "2",
 		          "partner_u_code": "UC002",
 		          "quantity": 100
 		        },
 		        {
-		          "id": 3,
-		          "partner_id": 3,
+		          "id": "3",
+		          "partner_id": "3",
 		          "partner_u_code": "UC002",
 		          "quantity": 100
 		        }
 		      ],
 		      "toping":[
 		        {
-		          "id": 4,
-		          "partner_id": 4,
+		          "id": "4",
+		          "partner_id": "4",
 		          "partner_u_code": "UC004",
 		          "quantity": 100
 		        }
